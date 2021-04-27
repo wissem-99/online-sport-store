@@ -1,0 +1,56 @@
+.navbar1 {    background-color: white !important;}
+.navdroite{
+  position: absolute;
+  left: 20%;
+  display: flex;  
+}
+
+.navu
+{
+color :yellow !important;
+}
+
+.navbar2 {
+    background-color: #FFD924 !important ;
+    font-family: 'Calibri' !important;
+    text-align: left;
+   
+}
+
+.form-inline{
+    display: flex !important;
+}
+.droite{
+    float:right !important;
+    justify-content: right !important;
+    display: flex  !important;
+    margin: 50px 30px 0px 0px !important;
+}
+
+.btn-outline-success {
+    color: #044673;
+    border-color: #044673;
+}
+.navdroite{
+    float: right !important;
+}
+
+
+/*---------------------------------------------*/
+a {
+	font-family: Poppins-Regular;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #1d009c;
+}
+a:focus {
+	outline: none !important;
+}
+
+a:hover {
+	text-decoration: none;
+    color: brown;
+}
+.panier {
+    margin-right: 20px !important;
+}
