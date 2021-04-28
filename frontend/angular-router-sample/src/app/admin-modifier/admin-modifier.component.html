@@ -1,0 +1,48 @@
+<div>
+   <h3><marquee>Page Administrateur</marquee></h3>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="text-center text-primary">Modifier  Produit</h1>
+            <form action="">
+                <div class="form-group">
+                    <label for="idp">
+                        <h3> Identfient du produit :</h3>
+                    </label>
+        
+                </div>
+                <div class="form-group">
+                    
+                    <select  class="form-control" id="idp">
+                        <option *ngFor="let prod of produit">{{prod.idp}}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="idp">
+                        <h3> Prix du produit :</h3>
+                    </label>
+                    <input type="number" name="prix" id="prix" class="form-control">
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <button type="button" name="b1" id="b1"
+                            class="btn btn-primary btn-lg btn-block"  (click)=" modif_prix()">Modifier Prix</button>
+                        <br><br><br>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="qp"><h3>Quantite du produit :</h3></label>
+                    <input type="number" name="qt" id="qt" class="form-control">
+                </div>
+                <div class="row">
+                        <div class="col-12 text-center">
+                            <button type="button" name="b1" id="b1"
+                                class="btn btn-primary btn-lg btn-block"  (click)=" modif_qt()">Modifier Quantite</button>
+                            <br><br><br>
+                        </div>
+                    </div>
+            </form>
+        </div>
+    </div>
+</div>

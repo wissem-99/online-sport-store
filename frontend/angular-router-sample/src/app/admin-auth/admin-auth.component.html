@@ -1,0 +1,26 @@
+<app-navacc></app-navacc>
+<div class="container">
+    <div class="row">
+        <div class="col-12">
+
+            <form>
+                <div *ngIf="!loginn" class="alert alert-danger loginerr" role="alert">{{loginErr}}</div>
+                <div class="mb-3">
+                    <label for="id" class="form-label">Identifiant :</label>
+                    <input type="text" class="form-control" name="id" id="id" required="false" [(ngModel)]="admin.id">
+                </div>
+                <div class="mb-3">
+                    <label for="mdp" class="form-label">Mot de passe :</label>
+                    <input type="password" class="form-control" name="mdp" id="mdp" required="false" [(ngModel)]="admin.mdp">
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <button type="button" name="b1" id="b1"
+                            class="btn btn-primary btn-lg btn-block"  (click)=" login()" >Connexion</button>
+                        <br><br><br>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+<app-headear></app-headear>
+<h1> Bonjour Client :</h1>
+<h3> Nom :{{client.nom}} </h3>
+<h3> Prenom :{{client.prenom}}</h3>
+<h3>Adresse :{{client.adr}}</h3>
+<div>
+   <h1>Changer Adresse</h1>
+   <h3>Saisir nouvelle Adresse :</h3>
+   <form>
+   <input class="form-control" type="text" id="adr" ><br>
+   <button  class="btn btn-primary btn-lg btn-block" (click)="changer_adr()">Changer</button>
+   </form>
+</div>
+<div>
+    <h1> Changer Mot de passe:</h1>
+    <h2> Mot de passe actuelle</h2>
+    <input class="form-control" type="text" id="mdp1" ><br>
+    <h2> Nouveau Mot de passe </h2>
+    <input  class="form-control" type="text" id="mdp2" ><br>
+    <button class="btn btn-primary btn-lg btn-block "  (click)="changer_mdp()">Changer</button>
+</div>

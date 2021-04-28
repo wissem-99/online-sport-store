@@ -1,0 +1,15 @@
+<app-headear></app-headear>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12  col-lg-4 col-xl-4 col-md-12 " *ngFor="let prod of produit">
+            <div class="card" style="width: 18rem;">
+                <img src="{{prod.php}}" class="card-img-top" alt="..." height="150 px">
+                <div class="card-body">
+                    <h2 class="card-text">{{prod.libp}}</h2>
+                    <h2 class="card-text">{{prod.prix}} DT</h2>
+                    <button type="submit" value="Ajouter">Ajouter</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

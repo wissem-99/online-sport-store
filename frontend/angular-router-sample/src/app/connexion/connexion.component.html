@@ -1,0 +1,42 @@
+<app-navacc></app-navacc>
+
+
+<div class="container-login100">
+        <div class="wrap-login100 p-l-50 p-r-50 p-t-72 p-b-50">
+            <form class="login100-form validate-form">
+                <span class="login100-form-title p-b-59">
+                    Se connecter
+                </span>
+                <div *ngIf="!loginn" class="alert alert-danger loginerr" role="alert">{{loginErr}}</div>
+                <div class="wrap-input100 validate-input">
+                    <span class="label-input100">Email</span>
+                    <input class="input100" type="text" name="email" id="mail" placeholder="Email addess..." [(ngModel)]="user.mail">
+                    <span class="focus-input100"></span>
+                </div>
+                <div class="wrap-input100 validate-input">
+                    <span class="label-input100">Mot de passe</span>
+                    <input class="input100" type="password" name="Mot de passe" id="mdp" placeholder="*************" [(ngModel)]="user.mdp">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="container-login100-form-btn">
+                    <div class="wrap-login100-form-btn">
+                        <div class="login100-form-bgbtn"></div>
+                        <button class="login100-form-btn" (click)=" login()">
+                            Connexion
+                        </button>
+                        
+                    </div>
+                    <div>
+                    <p style="font-weight: 600;"> vous n'avez pas de compte ?</p>
+                    <a routerLink="/inscrit" routerLinkActive="active" class="dis-block txt3 hov1 p-r-30 p-t-10 p-b-10 p-l-30">
+                       Inscription
+                        <i class="fa fa-long-arrow-right m-l-5"></i>
+                    </a>
+                </div>
+                </div>
+            </form>
+        </div>
+        <div class="bg"></div>
+    </div>
+

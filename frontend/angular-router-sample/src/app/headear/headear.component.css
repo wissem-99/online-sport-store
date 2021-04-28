@@ -1,0 +1,126 @@
+.logo{
+   width: 140px;
+   height: 70px;
+}
+ 
+.rl:hover
+{ color :#FFD924;
+}
+ form.example input[type=text] {
+   padding: 10px;
+   font-size: 17px;
+   border: 1px solid grey;
+   float: left;
+   width: 80%;
+   background: #f1f1f1;
+ }
+ 
+ form.example button {
+   float: left;
+   width: 20%;
+   padding: 10px;
+   background: #2196F3;
+   color: white;
+   font-size: 17px;
+   border: 1px solid grey;
+   border-left: none;
+   cursor: pointer;
+ }
+ 
+
+ header{
+     background-color: rgb(255, 187, 0);
+ }
+
+ 
+.fa-plus {
+   font-size:90px;
+   background-color: black;
+}
+
+.fa-edit  {
+   font-size:90px;
+}
+
+.fa-trash {
+   font-size:90px;
+}
+section{
+   padding-top: 150px;
+}
+nav{
+   padding-top: 10px;
+}
+
+.navu
+{
+   background-color: #FFD924!important;
+}
+.navp
+{
+   background-color:rgba(255, 255, 255, 0.52);
+}
+a{
+    color :black;
+       cursor: pointer;
+}
+a:hover
+{ color :red ;
+}
+div
+{
+   position: absolute;
+  left: 40%;
+  display: flex;
+}
+
+@media (max-width:400px) {
+form.example input[type=text]
+{ width:40%;
+ height: 5%;
+}}
+@media (max-width:400px) {
+   form.example button
+   { width:20%;
+      height: 5%;}}
+@media (max-width:400px) {
+ form.example
+ {
+   position: absolute;
+   left: 22%;
+   top :100%;
+   display: flex;
+   font-size: 1px;
+ }}
+ @media (max-width:400px) {
+ .logo{
+   width: 70px;
+   height: 70px;
+}}
+
+@media (max-width:400px) {
+
+ div
+ {
+   position: absolute;
+   left: 22%;
+   top :50%;
+   display: flex;
+ }
+   }
+   @media (max-width:400px)
+   {
+     a {
+      font-size: 15px;
+      }
+   }
+   @media (max-width:991px) {
+
+      div
+      {
+         top :10%;
+        position: absolute;
+        left: 22%;
+        display: flex;
+      }
+   }

@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "coolvetica";
+    src: url("../../assets/police/coolveticarg.ttf");
+  }
+.carousel img {
+    max-height: 459px;
+margin: 0 auto;
+  }
+  .card{
+      border:0px !important;
+      border-radius: 0% !important;
+
+  }
+  .card-body {
+    
+    padding: 0.25rem 0rem !important;
+  }
+  .card-title{
+      font-family: coolvetica;
+      margin-bottom: 0px !important;
+  }
+  .card-text{
+      font-weight: 100;
+  }
+  .btn-primary:hover {
+    color: #fff !important;
+    background-color:#d8b400  !important;
+    border-color: #d8b400 !important;
+}
+.btn-primary {
+    color: #fff !important;
+    background-color:#FFD924 !important;
+    border-color: #FFD924!important;
+}
+h2{
+    margin-left: 4% !important;
+margin-top: 37px !important;
+margin-bottom: 30px !important;
+font-family: Coolvetica !important;
+color: #044673 !important;
+font-size: 75px !important;
+}
+.btn{
+    display: block !important;
+}

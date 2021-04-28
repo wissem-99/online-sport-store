@@ -1,0 +1,25 @@
+<div>
+  <h3><marquee>Page Administrateur</marquee></h3>
+</div>
+<table class="table table-bordered" >
+    <thead>
+      <tr>
+        <th scope="col">identifient </th>
+        <th scope="col"> photo </th>
+        <th scope="col">libilie</th>
+        <th scope="col">prix</th>
+        <th scope="col">quantitie</th>
+        <th scope="col">categorie</th>
+      </tr>
+    </thead>
+
+      <tbody *ngFor="let prod of produit">
+        <td>{{prod.idp}}</td>
+          <td><img src="{{prod.php}}" alt="" width="30%"></td>
+          <td>{{prod.libp}}</td>
+          <td>{{prod.prix}}DT</td>
+          <td>{{prod.qt}}</td>
+          <td>{{prod.cat}}</td>
+    </tbody>
+
+  
